@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Plan Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator-container">
+        <h1>Custom Premium Plan</h1>
+        <p>Enter the number of days you want, and we'll calculate the best price for you.</p>
+
+        <div class="input-group">
+            <input type="number" id="daysInput" placeholder="Enter number of days (e.g., 45)" min="1">
+            <button onclick="calculatePrice()">Calculate Price</button>
+        </div>
+
+        <div id="result" class="result-container">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
